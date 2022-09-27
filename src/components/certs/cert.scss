@@ -1,0 +1,40 @@
+.cert{
+    flex: 2 2 10%;
+    border:2px solid #ef6c00;
+    padding: 10px 2%;
+    margin-left: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+
+
+   .cert-title{
+     color:#ef6c00;
+     text-transform: uppercase;
+     font-weight: 900;
+     flex: auto;
+     font-size: 13px;
+     display: flex;
+     justify-content: center;
+   }
+   
+   .cert-banner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        color: #ef6c00;
+        font-weight: 800;
+   }
+
+}
+
+@media screen and (max-width:600px) {
+  .cert{
+      min-width:100%;
+      display: flex;
+      align-items: center;
+      margin: 10px 0px;
+  }
+}

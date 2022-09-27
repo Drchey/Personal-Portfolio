@@ -1,18 +1,14 @@
-import { AdUnits, History, WorkspacePremium } from '@mui/icons-material'
+import { AdUnits } from '@mui/icons-material'
 import './header.scss'
 
-const Header = () => {
+const Header = ({title}) => {
   return (
     <div className='header'>
         <div className='header--title'>
            <AdUnits />
-            Richey
+            Richey | {title}
         </div>
-        <div className='header--links'>
-            <WorkspacePremium />
-            <History />
-
-        </div>
+       
 
         
     </div>

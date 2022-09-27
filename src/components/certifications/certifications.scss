@@ -1,0 +1,27 @@
+.certifications{
+    background-color: #263238;
+    padding: 2% 5%;
+
+
+    .cert-header{
+        font-weight: 600;
+        color: #546e7a;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .certs{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .certs{
+       display: flex;
+       flex-direction: column;
+    }
+}
